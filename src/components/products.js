@@ -5,7 +5,7 @@ import f2img from "./images/f2.png";
 
 export default function(){
     return(
-        <div className="products">
+        <div id="foodproducts" className="products">
             <div className="fph">
                 <h1>FOOD PRODUCTS</h1>
             </div>

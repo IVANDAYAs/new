@@ -7,7 +7,7 @@ import Lsus3 from "./images/lsus3.png";
 
 export default function(){
     return(
-        <div className="lsus">
+        <div id="sustainability" className="lsus">
             <div className="lsus-top">
                 <h1>THE LIVECO <br/> SUSTAINABILITY</h1>
             </div>

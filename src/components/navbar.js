@@ -18,16 +18,16 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Program</a>
+                            <a class="nav-link" href="#pricing">Program</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Free-trial</a>
+                            <a class="nav-link" href="#freetrial">Free-trial</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sustainablity</a>
+                            <a class="nav-link" href="#sustainability">Sustainablity</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Food-products</a>
+                            <a class="nav-link" href="#foodproducts">Food-products</a>
                         </li>
                     </ul>
                     <form class="form-inline">

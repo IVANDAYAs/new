@@ -3,7 +3,7 @@ import "./trial.css";
 
 export default function(){
     return(
-        <div className="trial row">
+        <div id="freetrial" className="trial row">
             <div className="col-lg-6 tleft">
                 <h1><b>The 7 days trial</b></h1>
                 <h4>Our experts included sustainability into fitness</h4>
