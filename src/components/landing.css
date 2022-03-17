@@ -1,0 +1,108 @@
+.landing{
+    text-align: center;
+    position: relative;
+    padding-top: 6%;
+}
+.landbg{
+    width: 100%;
+    height: 100%;
+    opacity: 50%;
+}
+.landingtext{
+    font-family: "alice";
+    position: absolute;
+    padding-top: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.landingtext h4{
+    padding-bottom: 30px;
+    color: black;
+    
+}
+.landingtext h2{
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.landingtext h5{
+    padding: 15px 0px;
+   
+}
+.landingtext h6{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.lh{
+    padding: 20px;
+}
+.landlogo{
+    width: 150px;
+    padding-bottom: 25px;
+}
+.lbtn{
+    background-color:#ffd28f;
+    color: black;
+   
+}
+.lbtn:hover{
+    background-color: white;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+
+
+
+@media (max-width: 768px){
+    .landing{
+        padding-top: 25%;
+        width: 100%;
+        text-align: center ;
+        overflow: hidden;
+    }
+    .landbg{
+        width: 300%;
+        height: 100%;
+        opacity: 50%;
+        transform: translateX(-35%) ;
+        object-fit: contain;
+
+    }
+    .landlogo{
+        width: 40%;
+    }
+    .landingtext{
+        font-family: "alice";
+        position: absolute;
+        padding-top: 250px;
+  
+    }
+    .landingtext h4{
+        padding-bottom: 5px;
+    }
+    .landingtext h2{
+        font-size: medium;
+    }
+    .landingtext h5{
+        font-size: small;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .lbtn{
+       width: 160%;
+       margin-bottom: 50px;
+      margin-left: -40%;
+
+    }
+    .rbtn{
+        background-color: white;
+        width: 190%;
+    }
+    .lbtn1{
+        padding-right: 10px;
+    }
+}

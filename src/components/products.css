@@ -1,0 +1,18 @@
+.products{
+    background-color: rgb(0, 0, 0);
+    padding: 5% 10%;
+    color: white;
+}
+.imgp{
+    text-align: center;
+}
+.imgp h1{
+    padding: 3%;
+}
+.fph{
+    text-align: center;
+    padding: 5% 0%;
+}
+.pimg{
+    width: 50%;
+}

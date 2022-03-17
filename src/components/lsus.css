@@ -1,0 +1,37 @@
+
+.lsus-minor{
+    padding: 10%;
+    padding-bottom: 35%;
+}
+
+.lsus{
+    background-color: black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.lsus h1{
+    font-family: "alice";
+    color: aliceblue;
+}
+.lsusup{
+   
+    margin-bottom: 10%;
+}
+
+@media (max-width: 768px){
+    .lsus{
+        padding: 0% 10% 40% 10%;
+    }
+    .lsusup{
+        margin-top: -20%;
+    }
+    .lsus-top{
+        padding-top: 20%;
+    }
+    .cardl{
+        margin: 5% 0%;
+    }
+    
+}

@@ -1,0 +1,65 @@
+
+.navbar{
+    padding: 2% 7%;
+    background-color: black;
+    
+}
+.nav-item{
+    padding-left: 30px;
+}
+.lnav .nav-link{
+    color: white;
+
+}
+.lnav .nav-link:hover{
+    color:#794936;
+}
+
+.navbar-brand{
+    color: aliceblue;
+    padding-right: 50px;
+    font-family: 'Yeseva One';
+}
+.navbar-brand:hover{
+    color:#794936;
+}
+.logbtn{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ffd28f;
+
+}
+.logbtn:hover{
+    background-color: white;
+}
+.credbtn{
+    padding-left: 1100px;
+}
+
+.mr-auto{
+    margin-right: auto !important;
+}
+
+@media (max-width: 768px) { 
+    .navbar{
+        padding-left: 40px;
+    }
+    .credbtn{
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+   .icon{
+        padding-right: 30px;
+   }
+   .logbtn{
+       margin: 25px 25px;
+   }
+   .navbar-brand{
+    margin: 25px 25px;
+   }
+   .navbar-nav{
+       margin: 0px;
+   }
+ }
+

@@ -1,0 +1,16 @@
+.pcard{
+    background-color: bisque;
+    padding: 5% 0%;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.oo h2 , .oo h4{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+  .pcard{
+      width: 80%;
+  }
+}
