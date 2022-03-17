@@ -6,6 +6,7 @@ import App from "./App.js";
 import Login from "./components/login.js";
 import Secret from "./components/secret.js";
 import Register from "./components/register.js";
+import Knowmore from "./components/know.js";
 import './index.css';
 
 const rootElement = document.getElementById("root");
@@ -16,6 +17,7 @@ render(
       <Route path="login" element={<Login />} />
       <Route path="register" element={<Register />} />
       <Route path="secret" element={<Secret />} />
+      <Route path="knowmore" element={<Knowmore />} />
     </Routes>
   </BrowserRouter>,
   rootElement

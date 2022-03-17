@@ -46,7 +46,14 @@
     color: black;
    
 }
+.rbtn{
+    background-color:#ffd28f;
+    color: black;
+}
 .lbtn:hover{
+    background-color: white;
+}
+.rbtn:hover{
     background-color: white;
 }
 
@@ -93,16 +100,16 @@
         padding-bottom: 20px;
     }
     .lbtn{
-       width: 160%;
-       margin-bottom: 50px;
-      margin-left: -40%;
+       width: 50%;
 
     }
     .rbtn{
         background-color: white;
-        width: 190%;
+        width: 50%;
     }
     .lbtn1{
-        padding-right: 10px;
+       margin-bottom: 50%;
+        margin-left: -40%;
+        margin-right: -40%;
     }
 }

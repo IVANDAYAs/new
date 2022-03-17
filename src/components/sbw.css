@@ -1,11 +1,8 @@
 .sbwimg{
-    width: 50%;
+    width: 98.55%;
     
 }
-
 .sbw{
-    margin-right:  0;
-    padding-right: 0;
     margin-left: 10%;
 }
 
@@ -21,13 +18,26 @@
     font-weight: 700;
 }
 .sbwh h2{
-    font-size: 50%;
+    font-size: 4vh;
 }
 .sbwleft{
-    padding-top: 200px;
+    padding-top: 15%;
 }
 
 
 .sbwright{
     padding-right: 0;
+}
+
+@media (max-width: 768px) { 
+.sbw{
+    margin-left: 0;
+}
+.sbwleft{
+    text-align: center;
+    margin-bottom: -70%;
+}
+.sbwimg{
+    opacity: 0%;
+}
 }

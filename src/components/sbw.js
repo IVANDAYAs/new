@@ -11,7 +11,7 @@ export default function(){
                         <h2><b>Come join us and learn the science behind working out and living a sustainable life.</b></h2>
                     </div>
                     <div >
-                        <button type="button" class="btn btn-outline-secondary sbwbtn">know more</button>
+                        <a href="/knowmore"><button type="button" class="btn btn-outline-secondary sbwbtn">know more</button></a>
                     </div>                  
                 </div>
                 <div className="col-lg-6 sbwright">

@@ -34,7 +34,7 @@
     text-align: center;
 }
 .fll{
-    padding-bottom: 100px;
+    padding-bottom: 5%;
 }
 
 
@@ -47,15 +47,23 @@
     }
     .rightfourl{
         text-align: center;
-        padding-top: 80px;
+        padding: 15% 15% 0% 15%;
+        text-align: left;
         
+    }
+    .fbtn{
+        margin-left: 25%;
     }
     iframe{
         width: 280px;
         height: 158px;
     }
     .downfourl{
+        
         padding: 0px 50px;
+    }
+    .fll{
+        padding-bottom: 20%;
     }
 
 

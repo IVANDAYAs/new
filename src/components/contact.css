@@ -1,7 +1,7 @@
 .contact{
    
     background-color: rgb(0, 0, 0);
-    padding: 10% 15%;
+    padding: 6% 15%;
     color: white;
 }
 
@@ -33,7 +33,13 @@
 @media (max-width:767px) {
     .cr{
         border-top: 6px solid green;
-        padding-top: 5%;
+        padding-top: 15%;
+    }
+    .ch h1{
+        font-size: 5vh;
+    }
+    .contact{
+        padding: 15%;
     }
 }
 
@@ -46,9 +52,6 @@
 }
 
 a#insta:hover{
-    color: rgb(252, 0, 252);
+    color: #fbad50;
 }
 
-a#twitter:hover{
-    color: rgb(29, 93, 190);
-}

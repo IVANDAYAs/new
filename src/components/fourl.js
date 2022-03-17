@@ -11,8 +11,11 @@ export default function(){
                         <img className="flimg" src={fourl}></img>
                     </div>
                     <div className="col-md-6 rightfourl">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/1piFN_ioMVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <button type="button" class="btn btn-outline-secondary fbtn">know more</button>
+                        <p>We help you explore the roots, we help you imbibe the finest practices of our forefathers.</p>
+                        <p>We form Liveco, we are here to help you lead a sustainable lifestyle and develop in a wholistic sense</p>
+                        <p>You are champions for sticking around and reading this through. You are the Levitators, the ones who plan to levitate themselves.</p>
+                        <p>Everyone forms the community, the community which is inclusive and accepting, the community to which we give back a part of ourselves</p>
+                        <a href="/knowmore"><button type="button" class="btn btn-outline-secondary fbtn">know more</button></a>
                     </div>
                 </div>
             </div>

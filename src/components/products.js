@@ -10,19 +10,19 @@ export default function(){
                 <h1>FOOD PRODUCTS</h1>
             </div>
             <div className="row imgp">
-                <div className="col-lg-6">
-                    <img className="pimg" src={f1img}></img>
-                    <h1>Sticky black rice</h1>
+                <div className=" p1 col-lg-6">
+                    <img className="primg" src={f1img}></img>
+                    <h3 className="p1h">Sticky black rice</h3>
                     <p>The sweet, the sour and the healthy</p>
-                    <p>₹749/kg</p>
-                    <button type="button" class="btn btn-outline-secondary sbwbtn">BUY NOW</button>
+                    <h6>₹749/kg</h6>
+                    <button type="button" class="btn btn-outline-secondary prbtn ">BUY NOW</button>
                 </div>
-                <div className="col-lg-6">
-                    <img className="pimg" src={f2img}></img>
-                    <h1>Bitter gourd pickle</h1>
+                <div className="p2 col-lg-6">
+                    <img className="primg" src={f2img}></img>
+                    <h3 className="p2h">Bitter gourd pickle</h3>
                     <p>We pack your memories in a jar</p>
-                    <p>₹299/100gm</p>
-                    <button type="button" class="btn btn-outline-secondary sbwbtn">BUY NOW</button>
+                    <h6>₹299/100gm</h6>
+                    <button type="button" class="btn btn-outline-secondary prbtn ">BUY NOW</button>
                 </div>
             </div>
            

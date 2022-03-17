@@ -15,11 +15,11 @@ export default function(){
                         <h5>We are your well wishers</h5>
                         <h5 className="lh">Yoga & mindfulness&emsp;|&emsp;S &C &emsp;|&emsp;HIIT&emsp;|&emsp;Cardio vascular endurance training</h5>
                         <div className="lbtn1 row justify-content-evenly">
-                            <div className="col-6 col-sm-4">
-                                <a  href="/register"><button  type="button" class="btn  lbtn"> <b>SIGN UP</b></button></a>
+                            <div className="col-6 col-sm-4 lbtn">
+                                <a  href="/register"><button  type="button" class="btn "> <b>SIGN UP</b></button></a>
                             </div>
-                            <div className="col-6 col-sm-4">
-                                <a href="/knowmore"><button type="button" class="btn  lbtn rbtn"><b>KNOW MORE</b></button></a>
+                            <div className="col-6 col-sm-4 rbtn">
+                                <a href="/knowmore"><button type="button" class="btn  "><b>KNOW MORE</b></button></a>
                             </div>
                         </div>
                     </div>  

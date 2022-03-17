@@ -26,14 +26,17 @@ export default function(){
             </div>
 
 
-            <div className="container pbottom">
+            <div className="container ">
 
-                <div className="row ">
-                    <div className="col-md-6 col-lg-6">
-                        <Cards name="SILVER PACK" price="1799" />
+                <div className="row pbottom">
+                    <div className=" col-lg-4">
+                        <Cards name="GOLD PACK" discount="50% off of 4999" price="1799" />
                     </div>
-                    <div className="col-md-6 col-lg-6">
-                        <Cards name="RHODIUM PACK" price="4499" />
+                    <div className=" col-lg-4">
+                        <Cards name="SILVER PACK" discount="30% off of 2499" price="1799" />
+                    </div>
+                    <div className=" col-lg-4">
+                        <Cards name="RHODIUM PACK" discount="60% off of 9999" price="4499" />
                     </div>
                 </div>
 

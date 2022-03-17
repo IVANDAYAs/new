@@ -21,7 +21,6 @@ function Contact(){
                             <h4>SOCIAL MEDIA</h4><br></br>                               
                                 <a id="insta" href="http://instagram.com"> <p className="social" > <i class="col fa-1x fa-brands fa-instagram"></i> Instagram  </p>  </a>                              
                                 <a id="facebook" href="http://instagram.com"> <p className="social" > <i class="col fa-2x fa-brands fa-facebook"></i>  Facebook   </p>  </a>
-                                <a id="twitter" href="http://instagram.com"> <p className="social" > <i class="col fa-2x fa-brands fa-twitter"></i>   Twitter    </p>  </a>
                                 <a id="linkedIn" href="http://instagram.com"> <p className="social" > <i class="col fa-2x fa-brands fa-linkedin"></i>  LinkedIn   </p>  </a>
                         </div>
 
