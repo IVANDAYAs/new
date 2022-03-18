@@ -30,7 +30,7 @@ export default function(){
 
                 <div className="row pbottom">
                     <div className=" col-lg-4">
-                        <Cards name="GOLD PACK" discount="50% off of 4999" price="1799" />
+                        <Cards name="GOLD PACK" discount="50% off of 4999" price="2499" />
                     </div>
                     <div className=" col-lg-4">
                         <Cards name="SILVER PACK" discount="30% off of 2499" price="1799" />

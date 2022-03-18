@@ -16,7 +16,7 @@
     background-color: black;
     border-radius: 7%;
 }
-.trbtn {
+.trbtnn {
     width: 220px;
     height: 50px;
     border: none;
@@ -29,9 +29,9 @@
     border-radius: 10px;
 }
 
-.trbtn:before {
+.trbtnn:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #000000, #909090, #E4D9D4, #794936, #8E927F, #2F2A24);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -46,19 +46,19 @@
     border-radius: 10px;
 }
 
-.trbtn:active {
+.trbtnn:active {
     color: #000
 }
 
-.trbtn:active:after {
+.trbtnn:active:after {
     background: transparent;
 }
 
-.trbtn:before {
+.trbtnn:before {
     opacity: 1;
 }
 
-.trbtn:after {
+.trbtnn:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -84,7 +84,7 @@
 .tright{
     background-color: transparent;
 }
-.trbtn{
+.trbtnn{
     margin-left: -40%;
 }
 

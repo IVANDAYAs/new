@@ -13,14 +13,14 @@ export default function(){
                     <li><b>1st day</b> - Assessment and personalised programs</li>
                     <li><b>2nd day</b> - S&C</li>
                     <li><b>3rd day</b> - HIIT</li>
-                    <li><b>4th day</b> - vascular endurance training</li>
+                    <li><b>4th day</b> - Cardio vascular endurance training</li>
                     <li><b>5th day</b> - Yoga & mindfulness</li>
                     <li><b>6th day</b> - choose any from the above</li>
                     <li><b>7th day</b> - Webinar on sustainability and sustainable living</li> 
                 </ul>
             </div>
             <div  className="d-grid gap-2 col-6 mx-auto tright">
-                <a href="/register"><button className="btn-lg trbtn ">Sign up</button></a>
+                <a href="/register"><button className="btn-lg trbtnn ">Sign up</button></a>
             </div>
         </div>
     );

@@ -34,8 +34,9 @@
     margin-left: 0;
 }
 .sbwleft{
-    text-align: center;
-    margin-bottom: -70%;
+    text-align: left;
+    margin-bottom: -90%;
+   padding: 10% 20%;
 }
 .sbwimg{
     opacity: 0%;
