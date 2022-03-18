@@ -15,7 +15,7 @@ export default function()
         function handleSubmit(e) 
         {
             e.preventDefault();
-            axios.post('http://localhost:4000/register', qs.stringify({
+            axios.post('https://livecom-backend.herokuapp.com/register', qs.stringify({
                 name: name,
                 phone:phone,
                 mail: email,

@@ -12,7 +12,7 @@ export default function(){
     function handleSubmit(e) 
         {
             e.preventDefault();
-            axios.post('http://localhost:4000/login', qs.stringify({
+            axios.post('https://livecom-backend.herokuapp.com/login', qs.stringify({
                 mail: email,
                 password: password
             }), 
