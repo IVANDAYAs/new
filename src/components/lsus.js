@@ -8,20 +8,18 @@ import Lsus3 from "./images/lsus3.png";
 export default function(){
     return(
         <div id="sustainability" className="lsus">
-            <div className="lsus-top">
-                <h1>THE LIVECO <br/> SUSTAINABILITY</h1>
-            </div>
+            
            
             <div className="container lsusup">
                 <div className="row">
                     <div className="col-lg-4 cardl">
-                        <Lcards h="- Fitness and ways to stay healthy value mental health and well being." quote="STAY WELL" imagen={Lsus1} />
+                        <Lcards h="- Best in class coaches cater to all your fitness requirements after a thorough assessment of your fitness level.Every month new & modifies in-home workout routine is shared" quote="FITNESS" imagen={Lsus1} />
                     </div>
                     <div className="col-lg-4 cardl">
-                        <Lcards h="- Focuses on farming techniques, fishing techniques, local, homegrown, micro macronutrients, ancient food recipes." quote="EAT BETTER" imagen={Lsus2} />
+                        <Lcards h="- You are the product of what your body consumes.An expert nutritonist devises out a diet plan every month according to your preferences and food-habit." quote="DIET" imagen={Lsus2} />
                     </div>
                     <div className="col-lg-4 cardl">
-                        <Lcards h="- Recycled,up-cycled,indigenous textiles (homegrown)" quote="WEAR BETTER" imagen={Lsus3} />
+                        <Lcards h="- A personalised health plan coupled with an expert diet plan to help you achieve all your fitness goals.Assessments will be done to formulate modified planse every month." quote="HEALTH" imagen={Lsus3} />
                     </div>                
                 </div>
             </div>

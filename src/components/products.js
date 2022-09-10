@@ -1,31 +1,70 @@
 import React from "react";
 import "./products.css";
-import f1img from "./images/f1.png";
-import f2img from "./images/f2.png";
+import r1 from "./images/1r.png"
+import r2 from "./images/2r.png"
+import r3 from "./images/3r.png"
+import r4 from "./images/4r.png"
+import r5 from "./images/5r.png"
 
-export default function(){
-    return(
+export default function () {
+    return (
         <div id="foodproducts" className="products">
-            <div className="fph">
-                <h1>FOOD PRODUCTS</h1>
-            </div>
-            <div className="row imgp">
-                <div className=" p1 col-lg-6">
-                    <img className="primg" src={f1img}></img>
-                    <h3 className="p1h">Sticky black rice</h3>
-                    <p>The sweet, the sour and the healthy</p>
-                    <h6>₹749/kg</h6>
-                    <button type="button" class="btn btn-outline-secondary prbtn ">BUY NOW</button>
+        <h1>TESTIMONIALS</h1>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
                 </div>
-                <div className="p2 col-lg-6">
-                    <img className="primg" src={f2img}></img>
-                    <h3 className="p2h">Bitter gourd pickle</h3>
-                    <p>We pack your memories in a jar</p>
-                    <h6>₹299/100gm</h6>
-                    <button type="button" class="btn btn-outline-secondary prbtn ">BUY NOW</button>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src={r1} class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src={r2} class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src={r3} class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src={r4} class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src={r5} class="d-block w-100" alt="..."  data-bs-interval="2000"/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-           
+
         </div>
     );
 }

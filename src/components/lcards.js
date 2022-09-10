@@ -10,11 +10,8 @@ export default function(props){
             </div>
             <div className="container">
                 <div className="lcarddown">
-                    <div className="col lquote">
+                    <div className=" lquote">
                         <h4><b>{props.quote}</b></h4>
-                    </div>
-                    <div className="col ">
-                        <img className="lsusimg" src={props.imagen} ></img>
                     </div>
                 </div>
             </div>

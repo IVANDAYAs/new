@@ -7,10 +7,10 @@ export default function(){
     return(
         <div id="pricing" className="pricing">
             <div className="ph">
-                <h1>THE LIVECO LEVITATION PROGRAM</h1>
-                <div className="pd">
+                <h1>PRICING</h1>
+                {/* <div className="pd">
                     <h3>Be fit without breaking the bank</h3>
-                </div>
+                </div> */}
             </div>
             
             <div className="container pmiddle">

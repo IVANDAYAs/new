@@ -8,22 +8,23 @@ export default function(){
             <div className="container">
                 <div className="row upfourl">
                     <div className="col-md-6 leftfourl">
-                        <img className="flimg" src={fourl}></img>
+                        {/* <img className="flimg" src={fourl}></img> */}
+                        <h1>Is training at home even effective ?</h1>
+                        <h3>Yes and definitely a YES</h3>
                     </div>
                     <div className="col-md-6 rightfourl">
-                        <p>We help you explore the roots, we help you imbibe the finest practices of our forefathers.</p>
-                        <p>We form Liveco, we are here to help you lead a sustainable lifestyle and develop in a wholistic sense</p>
-                        <p>You are champions for sticking around and reading this through. You are the Levitators, the ones who plan to levitate themselves.</p>
-                        <p>Everyone forms the community, the community which is inclusive and accepting, the community to which we give back a part of ourselves</p>
+                        <p><strong>Affordability</strong>- Swipe down to view our prices</p>
+                        <p><strong>Reliability</strong>- You can practice at your own comfort</p>
+                        <p><strong>Accountability</strong>- You hold yourself accountable for the progress you make</p>
                         <a href="/knowmore"><button type="button" class="btn btn-outline-secondary fbtn">know more</button></a>
                     </div>
                 </div>
             </div>
             
-            <div className="downfourl">
+            {/* <div className="downfourl">
                 <h4>'TWIGS MIGHT GO DIFFERENT WAYS BUT THE ROOT LIES IN THE SAME HEART OF THE LAND.'</h4>
                 <h5 className="fll">-An honest levitator</h5>
-            </div>
+            </div> */}
             
         </div>
     );

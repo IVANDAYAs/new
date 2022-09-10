@@ -18,7 +18,7 @@ export default function Home(){
             <Navbar />
             <Landing />
             <Lsus />
-            <Trial />
+            {/* <Trial /> */}
             <Fourl />
             <Pricing />
             <Products />

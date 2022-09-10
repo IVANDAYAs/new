@@ -1,13 +1,13 @@
 import React from "react";
 import "./navbar.css";
-
+import landinglogo from "./images/logo.png";
 function Navbar() {
 
     return (
 
         <div className="lnav">
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                <a class="navbar-brand" href=".">LIVECO</a>
+            <img className="landlogo" src={landinglogo}></img>
 
                 <div className="icon">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,10 +30,10 @@ function Navbar() {
                             <a class="nav-link" href="#foodproducts">Food-products</a>
                         </li>
                     </ul>
-                    <form class="form-inline">
-                        <a href="/register"><button type="button" class="btn  logbtn"><b>Sign up</b></button></a>
-                        <a href="/login"><button type="button" class="btn  logbtn" ><b>Login</b></button></a>                        
-                    </form>
+                        {/* <form class="form-inline">
+                            <a href="/register"><button type="button" class="btn  logbtn"><b>Sign up</b></button></a>
+                            <a href="/login"><button type="button" class="btn  logbtn" ><b>Login</b></button></a>                        
+                        </form> */}
                 </div>
             </nav>
         </div>
