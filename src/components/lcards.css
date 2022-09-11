@@ -11,13 +11,19 @@
 }   
 
 
-.lcards:hover{
+/* .lcards:hover{
     box-shadow: 5px 5px 10px #ffd28f;
-}
+} */
 .lcards h5{
     color: rgb(250, 182, 50);
 }
-
+@keyframes blinking {
+    0% {  }
+    100% { box-shadow: 5px 5px 10px #ffd28f; }
+  }
+.lcards{
+    animation: blinking 1s infinite;
+}
 
 .lsusimg{
     width: 100%;

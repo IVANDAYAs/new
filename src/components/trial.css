@@ -8,14 +8,20 @@
     padding-top: 5%;
     
 }
-.tleft h4{
-    padding-top: 4%;
-    padding-bottom: 4%;
+.tleft h1{
+    margin-right: 25%;
 }
-.tright{
+.tleft h6{
+    margin: 10% 25% 5% 0%;
+}
+.about1{
     text-align: center;
-    padding-top: 14%;
-    background-color: black;
+    border-radius: 7%;
+}
+.about1 h6{
+    margin: 10% 20% 0% 20%;
+}
+.about1 img{
     border-radius: 7%;
 }
 .trbtnn {
@@ -83,8 +89,19 @@
     padding: 20% 10%;
     font-size: 2vh;
 }
-.tright{
-    background-color: transparent;
+.tleft h1{
+    margin-right: 15%;
+}
+.tleft h6{
+    margin: 10% 0% 5% 0%;
+}
+.about1 h6{
+    text-align: justify;
+    margin: 10% 5%;
+}
+.about1 img{
+   width: 100%;
+   margin: 10% 0%;
 }
 .trbtnn{
     margin-left: -40%;

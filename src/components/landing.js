@@ -10,7 +10,7 @@ export default function(){
                 <video className="landbg" id="landingimg" src={landingimg} muted playsinline autoPlay loop />
                     <div className="landingtext">
                         <img className="landlogo" src={landinglogo}></img>
-                        <h4><b>make living sustainable</b></h4>
+                        <h4><b>Fitness Diet and<br/> Health</b></h4>
                         <br/>
                         {/* <h2>Avail a 7 day free trial</h2>
                         <h5>We are your well wishers</h5>

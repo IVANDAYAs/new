@@ -18,16 +18,19 @@ function Navbar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="#pricing">Program</a>
+                            <a class="nav-link" href="#pricing">Ultimate health plan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#freetrial">Free-trial</a>
+                            <a class="nav-link" href="#freetrial">Ultimate health plus</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sustainability">Sustainablity</a>
+                            <a class="nav-link" href="#sustainability">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#foodproducts">Food-products</a>
+                            <a class="nav-link" href="#sustainability">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#foodproducts">Contact us</a>
                         </li>
                     </ul>
                         {/* <form class="form-inline">

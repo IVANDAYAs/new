@@ -8,7 +8,7 @@ import Sbw from "./sbw.js"
 import Contact from "./contact.js";
 import Footer from "./footer.js";
 import Trial from "./trial.js";
-import Products from "./products.js";
+import Testimonials from "./products.js";
 import "./Home.css";
 
 
@@ -17,12 +17,12 @@ export default function Home(){
         <div className="home">
             <Navbar />
             <Landing />
+            <Trial />
             <Lsus />
-            {/* <Trial /> */}
-            <Fourl />
+            {/* <Fourl /> */}
             <Pricing />
-            <Products />
-            <Sbw /> 
+            <Testimonials />
+            {/* <Sbw />  */}
             <Contact />
             <Footer />
         </div>
