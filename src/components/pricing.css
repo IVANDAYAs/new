@@ -1,6 +1,6 @@
-.pricing{
+/* .pricing{
     
-}
+} */
 .ph{
     font-family: "alice";
     text-align: center;
@@ -39,9 +39,14 @@
     font-size: 1.5em;
 }
 .pbottom{
+    margin: 5%;
     padding: 5% 5%;
-    
+    background-color: black;
     text-align: center;
+}
+.pbottom h4{
+    
+    color: rgb(250, 182, 50);
 }
 
 
@@ -89,7 +94,9 @@
     }
     .pbottom{
         text-align: center;
-       
+    }
+    .pbottom h4{
+        margin: 7% 0%;
     }
  
 }
