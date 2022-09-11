@@ -23,6 +23,10 @@
 .navbar-brand:hover{
     color:#794936;
 }
+.landlogo{
+    width: 7% !important;
+    margin-right: 5%;
+}
 .logbtn{
     color: black;
     margin-left: 10px;
@@ -54,6 +58,10 @@
    }
    .logbtn{
        margin: 25px 25px;
+   }
+   .landlogo{
+       margin-top: 5%;
+       width: 20% !important;
    }
    .navbar-brand{
     margin: 25px 25px;

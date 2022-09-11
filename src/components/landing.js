@@ -9,7 +9,7 @@ export default function(){
                 {/* <img className="landbg" src={landingimg}></img> */}
                 <video className="landbg" id="landingimg" src={landingimg} muted playsinline autoPlay loop />
                     <div className="landingtext">
-                        <img className="landlogo" src={landinglogo}></img>
+                        <img className="landlogo1" src={landinglogo}></img>
                         <h4><b>Fitness Diet and<br/> Health</b></h4>
                         <br/>
                         {/* <h2>Avail a 7 day free trial</h2>

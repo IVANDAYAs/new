@@ -18,11 +18,12 @@
     color: rgb(250, 182, 50);
 }
 @keyframes blinking {
-    0% {  }
-    100% { box-shadow: 5px 5px 10px #ffd28f; }
+    0% {box-shadow: 5px 5px 10px #000000; }
+    50% {box-shadow: 5px 5px 10px #ffd28f; }
+    100% { box-shadow: 5px 5px 10px #000000; }
   }
 .lcards{
-    animation: blinking 1s infinite;
+    animation: blinking 2s infinite;
 }
 
 .lsusimg{
@@ -43,6 +44,10 @@
 }  
 
 @media (max-width: 768px){
+.lcards{
+    margin: 0;
+    margin-top: 40px;
+}
 .lsush h5{
     font-size: 2vh;
 }
