@@ -1,6 +1,6 @@
 import React from "react";
 import "./landing.css";
-import landingimg from "./images/landingv.mp4";
+import landingimg from "./images/land.mov";
 import landinglogo from "./images/logo.png";
 
 export default function(){

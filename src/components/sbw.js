@@ -1,6 +1,6 @@
 import React from "react";
 import "./sbw.css";
-import sbwimg from "./images/sbw.jpg";
+
 
 export default function(){
     return(
@@ -15,7 +15,7 @@ export default function(){
                     </div>                  
                 </div>
                 <div className="col-lg-6 sbwright">
-                    <img className="sbwimg" src={sbwimg}></img>
+                    {/* <img className="sbwimg" src={sbwimg}></img> */}
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./fourl.css";
-import fourl from "./images/4l.png";
+// import fourl from "./images/4l.png";
 
 export default function(){
     return(
