@@ -46,7 +46,7 @@ export default function () {
                 </div>
 
             </div>
-            <Cards name="Test" discount="1 month" price="1499" id="donateFormSeven" payId="pl_KI5O6tN5TrRZWH" />
+           
         </div>
     );
 }

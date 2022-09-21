@@ -21,16 +21,16 @@ function Navbar() {
                             <a class="nav-link" href="#pricing">Ultimate health plan</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#freetrial">Ultimate health plus</a>
+                            <a class="nav-link" href="#pricing">Ultimate health plus</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sustainability">About us</a>
+                            <a class="nav-link" href="#freetrial">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#sustainability">Testimonials</a>
+                            <a class="nav-link" href="#foodproducts">Testimonials</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#foodproducts">Contact us</a>
+                            <a class="nav-link" href="#contact">Contact us</a>
                         </li>
                     </ul>
                         {/* <form class="form-inline">

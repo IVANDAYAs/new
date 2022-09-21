@@ -7,7 +7,7 @@ export default function(){
             <div className="col-lg-6 tleft">
                 <h1><b>We are a data driven company.</b></h1>
                 {/* <h4>Our experts included sustainability into fitness</h4> */}
-                <h6>With some of the best fitness coaches and nutritionist on board,we house immense experience and subsequently data.The experience makes sure that your plan is chalked out keeping the follwing factors in mind</h6>
+                <h6>With some of the best fitness coaches and nutritionist on board, we house immense experience and subsequently data.The experience makes sure that your plan is chalked out keeping the follwing factors in mind.</h6>
                 {/* <h6>A little skeletal of the 7 day free trial of Sustainable fitness</h6>
                 <ul className="listt">
                     <li><b>1st day</b> - Assessment and personalised programs</li>
