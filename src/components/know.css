@@ -7,12 +7,26 @@
     text-align: center;
     padding: 5%;
 }
-
+.know h1{
+    margin: 2%;
+}
+a#instak{
+    color: #C13584;
+}
+a#mailk{
+    color: #cf0221;
+}
+.know img{
+   margin: 2%;
+}
 
 @media (max-width: 768px){
     .know img{
         width: 80%;
         padding: 5%;
+    }
+    .know h1{
+        margin: 5%;
     }
 
 }
